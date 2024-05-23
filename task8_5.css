@@ -1,0 +1,40 @@
+body {
+    background-color: #a8bf7e;
+}
+
+.container {
+    background-color: #a0d0ea;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: 250px;
+    width: 200px;
+    margin: auto;
+    gap: 10px;
+    padding: 20px;
+}
+
+
+.bar {
+    background-color: #f1fbeb;
+    grid-column: 1 / 5;
+}
+
+.button {
+    background-color: #efefef;
+}
+
+.function {
+    background-color: #efff93;
+}
+
+.ceaser {
+    background-color: #fe9fa9;
+}
+
+.bar, .button, .function, .ceaser {
+    box-shadow: 0 2px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding-top:10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
